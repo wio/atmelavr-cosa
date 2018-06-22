@@ -1,6 +1,6 @@
 # AtmelAVR Cosa Framework
 
-Atmel AVR 8- and 32-bit MCUs deliver a unique combination of performance, power efficiency and design flexibility. Optimized to speed time to market-and easily adapt to new ones-they are based on the industrys most code-efficient architecture for C and assembly programming.
+Atmel AVR 8-bit and 32-bit MCUs deliver a unique combination of performance, power efficiency and design flexibility. Optimized to speed time to market-and easily adapt to new ones-they are based on the industrys most code-efficient architecture for C and assembly programming.
 
 [More Information about Atmel AVR](http://www.microchip.com/design-centers/8-bit/avr-mcus) 
 
