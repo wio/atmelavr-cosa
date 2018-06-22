@@ -1,0 +1,3 @@
+[submodule "core/Cosa"]
+	path = core/Cosa
+	url = https://github.com/wio/Cosa.git
