@@ -9,12 +9,12 @@ Cosa is an object-oriented platform for Arduino. It replaces the Arduino and Wir
 [More Information about Cosa](https://github.com/mikaelpatel/cosa)
 
 ## Wio Framework 
-This is a framework supported by Wio and is compatible with `atmelavr` platform. To use this framework:
+This is a framework supported by Wio and is compatible with `avr` platform. To use this framework:
 * [Install wio](https://github.com/wio/wio#install)
 * Create an AtmelAVR package or AtmelAVR app
 ```bash
-wio create pkg --platform atmelavr --framework cosa
+wio create pkg --platform avr --framework cosa
 ```
 ```bash
-wio create app --platform atmelavr --framework cosa
+wio create app --platform avr --framework cosa
 ```
