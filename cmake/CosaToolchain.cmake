@@ -36,12 +36,12 @@ elseif (WIN32)
 endif ()
 
 # Set platform path to Cosa and arduino-cmake
-set(ARDUINO_CMAKE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/../../../.module-arduino-cmake@1.0.0)
+set(ARDUINO_CMAKE_PATH ${CMAKE_CURRENT_LIST_DIR}/../../../module-arduino-cmake@1.0.0/cmake)
 
-if (NOT ${ARDUINO_CMAKE_PATH})
+if (NOT ARDUINO_CMAKE_PATH)
     message(FATAL_ERROR "ARDUINO_CMAKE_PATH is not defined")
 endif()
 
-set(COSA_SDK_PATH "${CMAKE_CURRENT_LIST_DIR}/../core")
+set(COSA_SDK_PATH "${CMAKE_CURRENT_LIST_DIR}/../core/Cosa")
 message(STATUS "`cosa`          location: ${COSA_SDK_PATH}")
 message(STATUS "`arduino-cmake` location: ${ARDUINO_CMAKE_PATH}")
