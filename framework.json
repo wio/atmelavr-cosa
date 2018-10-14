@@ -1,9 +1,9 @@
 {
-    "name": "atmelavr-cosa",
+    "name": "avr-cosa",
     "url": "https://github.com/mikaelpatel/cosa",
-    "keywords": ["cosa", "atmelavr"],
+    "keywords": ["cosa", "avr"],
     "toolchain-file": "cmake/CosaToolchain.cmake",
-    "platform": "atmelavr",
+    "platform": "avr",
     "framework": "cosa",
-    "requirements": ["arduino-cmake"]
+    "requirements": ["module-arduino-cmake@1.0.0"]
 }
