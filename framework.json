@@ -1,9 +1,0 @@
-{
-    "name": "avr-cosa",
-    "url": "https://github.com/mikaelpatel/cosa",
-    "keywords": ["cosa", "avr"],
-    "toolchain-file": "cmake/CosaToolchain.cmake",
-    "platform": "avr",
-    "framework": "cosa",
-    "requirements": ["module-arduino-cmake@1.0.0"]
-}

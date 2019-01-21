@@ -1,0 +1,20 @@
+{
+  "name": "wio-framework-avr-cosa",
+  "version": "1.0.0",
+  "description": "AVR Cosa framework for Wio",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wio/framework-avr-cosa.git"
+  },
+  "keywords": ["cosa", "avr"],
+  "author": "Mikael Patel",
+  "license": "LGPL-2.1",
+  "bugs": {
+    "url": "https://github.com/wio/framework-avr-cosa/issues"
+  },
+  "homepage": "https://github.com/wio/framework-avr-cosa#readme",
+  "dependencies": {
+    "wio-module-arduino-cmake": "1.0.0"
+  },
+  "toolchain-file": "cmake/CosaToolchain.cmake"
+}
