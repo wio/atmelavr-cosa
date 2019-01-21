@@ -1,6 +1,6 @@
 {
   "name": "wio-framework-avr-cosa",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AVR Cosa framework for Wio",
   "repository": {
     "type": "git",

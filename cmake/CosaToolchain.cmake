@@ -39,7 +39,7 @@ elseif (WIN32)
 endif ()
 
 # Set platform path to Cosa and arduino-cmake
-set(ARDUINO_CMAKE_PATH ${WIO_DEP_WIO_MODULE_ARDUINO_CMAKE_PATH}/cmake)
+set(ARDUINO_CMAKE_PATH ${WIO_DEP_WIO-MODULE-ARDUINO-CMAKE_PATH}/cmake)
 
 if (NOT ARDUINO_CMAKE_PATH OR NOT EXISTS ${ARDUINO_CMAKE_PATH})
     message(FATAL_ERROR "ARDUINO_CMAKE_PATH is undefined or not found")
