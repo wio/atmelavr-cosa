@@ -1,3 +1,6 @@
+# provided by wio
+include("${CMAKE_CURRENT_LIST_DIR}/../WioConfig.cmake")
+
 if (COSA_IS_TOOLCHAIN_PROCESSED)
     return()
 endif ()
@@ -36,10 +39,12 @@ elseif (WIN32)
 endif ()
 
 # Set platform path to Cosa and arduino-cmake
-set(ARDUINO_CMAKE_PATH ${CMAKE_CURRENT_LIST_DIR}/../../../module-arduino-cmake@1.0.0/cmake)
+set(ARDUINO_CMAKE_PATH ${WIO_TOOLCHAIN_PATH}/module-arduino-cmake__1.0.0/cmake)
 
-if (NOT ARDUINO_CMAKE_PATH)
-    message(FATAL_ERROR "ARDUINO_CMAKE_PATH is not defined")
+if (NOT ARDUINO_CMAKE_PATH OR NOT EXISTS ${ARDUINO_CMAKE_PATH})
+    message(FATAL_ERROR "ARDUINO_CMAKE_PATH is undefined or not found")
+else()
+    message(STATUS "ARDUINO_CMAKE_PATH set to ${ARDUINO_CMAKE_PATH}")
 endif()
 
 set(COSA_SDK_PATH "${CMAKE_CURRENT_LIST_DIR}/../core/Cosa")
